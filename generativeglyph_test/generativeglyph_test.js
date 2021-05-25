@@ -21,6 +21,8 @@ function preload(){
 function draw() {
   
 if(shouldDisplay){
+  stroke(10, 100);
+  noFill();
 //curves generating
   var x1 = width  * noise(t + 10);
   var x2 = mouseX * noise(t + 20);
