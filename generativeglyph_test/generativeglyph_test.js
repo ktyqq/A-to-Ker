@@ -37,7 +37,7 @@ if(shouldDisplay){
 
   t += 0.009;
   }
- push();
+
  if(instruct){
   //overlay
   rectMode(CENTER);
@@ -64,7 +64,6 @@ if(shouldDisplay){
   textStyle(ITALIC);
   text(starttext, windowWidth/2, 0.9*windowHeight);
   pop();
-pop();
   }
 }
   
